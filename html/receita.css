@@ -4,6 +4,9 @@ body{
     width:940px;
     margin-right:auto;
     margin-left:auto;
+nav{
+    float: left;
+}   
 }
 h2{
     background-color: brown;
@@ -26,6 +29,22 @@ figure{
     box-shadow: 5px 5px 3px rgba(0,0,0,0.7);
     -webkit-transform:rotate(5deg);
 }
+nav ul li{
+    background-color:#C7BE9B;
+    margin-bottom:3px;
+
+}
+nav ul li:hover{
+    background-color:#9C8F67;
+}
+nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+nav ul{
+    list-style:none;
+    padding-left:0;
+}
 #tb_nutrientes{
     width: 40%;
     margin-right: auto;
@@ -36,10 +55,8 @@ th{
     background-color:brown;
 }
 
-nav ul li{
-    display: inline;
-    margin-right:50px;
-}
+
+
 #top{
     text-align: center;
 }
